@@ -4,7 +4,7 @@ let API = async () => {
   let response = await fetch("https://reqres.in/api/users?page=1");
   let file = await response.json();
   let info = file.data
-    .map((element) => {a
+    .map((element) => {
       return `<div class="card">
         <div class="card-image">
             <img src="bg.jpg" alt="">
